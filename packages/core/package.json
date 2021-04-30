@@ -1,0 +1,36 @@
+{
+  "name": "@test/core",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "PeiSong <naivefun@users.noreply.github.com>",
+  "homepage": "https://github.com/naivefun/rollup-lerna-ts-demo#readme",
+  "license": "ISC",
+  "main": "src/index.ts",
+  "directories": {
+    "src": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "src"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naivefun/rollup-lerna-ts-demo.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/naivefun/rollup-lerna-ts-demo/issues"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^8.2.1",
+    "@types/react": "^17.0.4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rollup": "^2.46.0"
+  }
+}
